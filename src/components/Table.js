@@ -10,9 +10,17 @@ function isPrime(num) {
       return true;
   }
 
+  function getRndInteger() {
+    return Math.floor(Math.random() * (10) ) + 1;
+  }
+
+function random(){
+  this.innerHTML+= getRndInteger()
+}
+
 const Table =(props)=>{
  return (
-    <div className={props.class} >
+    <div className={props.class} onClick={random} >
         {props.num}
     </div>
     )
