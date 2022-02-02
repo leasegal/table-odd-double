@@ -1,6 +1,7 @@
-import {Table,arr,isPrime} from './Table'
+import {Table,isPrime} from './Table'
 
-
+let arr =[]
+for(let i=0;i<32;i++){arr.push(i)}
 
 function App() {
   return (

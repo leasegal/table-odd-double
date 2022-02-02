@@ -1,7 +1,6 @@
 import React from "react";
 
-let arr =[]
-for(let i=0;i<32;i++){arr.push(i)}
+
 
 function isPrime(num) {
     if(num==0||num==1){return false}
@@ -25,4 +24,4 @@ const Table =(props)=>{
     </div>
     )
 }
- export  {Table,arr,isPrime};
+ export  {Table,isPrime};
