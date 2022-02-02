@@ -19,7 +19,7 @@ function random(){
 
 const Table =(props)=>{
  return (
-    <div className={props.class} onClick={random} >
+    <div className={props.class} onClick={random()} >
         {props.num}
     </div>
     )
